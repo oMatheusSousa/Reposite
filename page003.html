@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario sobre os jogos</h1>
+	<hr>
+	<h2>Menu</h2>
+	<ol type="1">
+		<li><a href="index.html" rel="prev">Página inicial</a></li>
+		<li><a href="page002.html" rel="prev">Lista dos jogos mais jogados</a></li>
+	</ol>
+	<hr>
+	<form>
+		<fieldset>
+			<div>
+				<label>Já jogou algum jogo da lista?</label>
+				<label>
+					<input type="radio" name="buttonjogo" value="sim">sim
+				</label>
+				<label>
+					<input type="radio" name="buttonjogo" value="nao">não
+				</label>
+			</div>
+			<div>
+				<label>Qual(is) jogo(s)?</label>
+				<input type="text" name="nomejogo" id="nomejogo">
+			</div>
+			<div>
+				<label>Recomenda esse(s) jogo(s)</label>
+				<select id="recomendacao">
+					<option selected disable value=""></option>
+					<option>sim</option>
+					<option>não</option>
+				</select>
+			</div>
+		</fieldset>
+		<button type="submit">Concluído</button>
+	</form>
+	<img src="imagens/obrigado.png" width="500" alt="obrigado">
+</body>
+</html>
